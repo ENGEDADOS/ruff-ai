@@ -1,7 +1,6 @@
 import { Context } from "probot";
 
-export type UpdateCommentParams = {
+export type DeleteCommentParams = {
   context: Context;
-  body: string;
   commentId: number;
 }
