@@ -1,5 +1,5 @@
 import { Probot } from "probot";
-import openai from "./agents/openai.ts";
+import openai from "./agents/openai.js";
 import { HumanMessage } from "@langchain/core/messages";
 
 const messages = [
